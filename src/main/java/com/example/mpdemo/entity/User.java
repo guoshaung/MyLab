@@ -14,6 +14,26 @@ public class User {
     private String birthday;
     @TableField(exist = false)
     private List<Order> orders;
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", orders=" + orders +
+                '}';
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
+
     public int getUser() {
         return id;
     }
@@ -46,13 +66,4 @@ public class User {
         this.birthday = birthday;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "user=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", birthday='" + birthday + '\'' +
-                '}';
-    }
 }
