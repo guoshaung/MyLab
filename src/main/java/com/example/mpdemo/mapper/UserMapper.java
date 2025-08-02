@@ -9,9 +9,9 @@ import java.util.List;
 public interface UserMapper extends BaseMapper<User> {
 
 
-    @Select("select * from user")
+    @Select("select * from t_user")
     public List<User> search();
-    @Insert("insert into user values(#{id},#{username},#{password},#{birthday})")
+    @Insert("insert into t_user values(#{id},#{username},#{password},#{birthday})")
     public int insert(User user);
     @Results({
             @Result(column = "id", property = "id"),

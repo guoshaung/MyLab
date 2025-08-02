@@ -8,6 +8,7 @@ import java.util.List;
 
 @TableName("t_user")
 public class User {
+    @TableId
     private int id;
     private String username;
     private String password;
