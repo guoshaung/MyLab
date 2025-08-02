@@ -1,3 +1,3 @@
 emmmmmm，刚才顺序弄错了，懒得再打一遍字了，这是B站一日学习Springboot+vue的一个学习项目，
 在大学没有系统弄过java的完整项目，就这这个机会敲一遍demo代码，然后下方附上哔哩哔哩的视频封面。
-![QQ截图20250802201735.png](picture%2FQQ%BD%D8%CD%BC20250802201735.png)
+![QQ20250802201735.png](picture%2FQQ%BD%D8%CD%BC20250802201735.png)
